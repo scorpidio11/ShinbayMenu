@@ -16,10 +16,11 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-const url = "mongodb://localhost:27017/shinbay";
-mongoose.connect(url);
+//const url = "mongodb://localhost:27017/shinbay";
+//mongoose.connect(url);
 
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/shinbaymenu");
+// Connect to the Mongo DB HEROKU
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/shinbay");
 
 // Start the API server
 app.listen(PORT, function() {
