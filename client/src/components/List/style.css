@@ -51,6 +51,7 @@ a:hover {
   text-decoration: underline;
 }
 b, strong {
-  font-weight: bolder;
+  font-weight: 600;
   text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
 }

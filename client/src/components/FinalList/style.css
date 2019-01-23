@@ -24,12 +24,14 @@
     margin-left: auto;
     padding:  2%;
      border:solid 6px #dfc6ab;
+     
     
 }
 
 .list-group-item3{
  display: block;
  padding:  2%;
+ font-family: 'Open Sans', sans-serif;
 }
 
 
